@@ -1,5 +1,6 @@
 #include "stm32f1xx_hal.h"
 
+extern I2C_HandleTypeDef hi2c1;  // change your handler here accordingly
 // Because using 7 bit addresses, it had to be shifted left!
 #define MPU6050_ADDR 0x68 << 1
 
